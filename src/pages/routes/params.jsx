@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useRouter } from "next/router";
 
 export default function params(){
@@ -9,6 +10,8 @@ export default function params(){
     return (
         <div>
             <h1> Rotas params: {name} e {teste} </h1>
+
+            <Link href="/routes" >Voltar</Link>
         </div>
     );
 }
