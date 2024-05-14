@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 
-export default function question(){
+export default function Question(){
     const [question, setQuestion] = useState(null);
 
     useEffect(()=>{

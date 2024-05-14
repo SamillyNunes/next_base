@@ -1,4 +1,4 @@
-export default function otherRoute(){
+export default function OtherRoute(){
     return (
         <div>
             <h1> Outra rota! </h1>

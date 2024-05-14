@@ -1,7 +1,7 @@
 import Link from "next/link";
 import router, { useRouter } from "next/router";
 
-export default function routes(){
+export default function Routes(){
 
     function simpleNavigation(){
         router.push('/routes/params?id=12&name=Samilly&teste=Nunes')
